@@ -37,10 +37,10 @@ export type ComponentsModal = Collection<
 >;
 
 interface CommandComponents {
-  buttons: ComponentsButton;
-  selects: ComponentsStringSelecMenu;
-  rolesSelects: ComponentsRolesSelecMenu;
-  modals: ComponentsModal;
+  buttons?: ComponentsButton;
+  selects?: ComponentsStringSelecMenu;
+  rolesSelects?: ComponentsRolesSelecMenu;
+  modals?: ComponentsModal;
 }
 
 export type CommandType = ApplicationCommandData &
